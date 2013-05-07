@@ -43,6 +43,10 @@
   border: 1px solid #bbb;
 }
 
+.nm-core-slider {
+  width: 100%;
+}
+
 .nm-core-html-composer {
   box-sizing: border-box;
   width: 100%;
