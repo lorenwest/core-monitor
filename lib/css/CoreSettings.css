@@ -1,0 +1,24 @@
+.core-chart-settings-view h4 {
+  margin-left: 4px;
+}
+
+.core-gauge-label {
+  width: 220px;
+  float: left;
+}
+
+.core-gauge-label-right {
+  width: 220px;
+  float: left;
+  margin-left: 34px;
+}
+
+.core-gauge-minmax {
+  float: left;
+  margin-left: 34px;
+}
+
+.core-gauge-minmax input {
+  width: 50px;
+  text-align: right;
+}
