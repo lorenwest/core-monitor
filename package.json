@@ -1,7 +1,7 @@
 {
   "name": "core-monitor",
   "description": "Core Components",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "main": "lib/index.js",
   "dependencies": {
     "connect": ">=1.7.2 <1.8.0",
