@@ -86,6 +86,32 @@
   margin-left: 10px;
 }
 
+/* Log Viewer */
+.nm-core-lv {
+  margin:0 0 10px 0;
+}
+.nm-core-lv li {
+  margin:0;
+  padding:0;
+  line-height:14px;
+  font-size:11px;
+  font-family: Menlo, monospace !important;
+  list-style: none;
+  white-space: pre;
+  cursor: default;
+}
+.nm-core-lv li i {
+  color: rgba(200,183,155, .6);
+}
+.nm-core-lv li:hover i {
+  color: rgba(200,183,155, 1);
+}
+
+.nm-core-lv-pattern {
+  width: 508px;
+  font-size: 12px !important;
+}
+
 /* REPL Console */
 
 .nm-core-rp {
@@ -228,3 +254,72 @@ input.nm-core-inspector-expression {
 .nm-core-inspector-depth {
   width: 20px;
 }
+
+
+.nm-core-av > div {
+  margin-bottom: 10px;
+}
+.nm-core-av title {
+  display:block;
+  font-size: 16px;
+  line-height: 20px;
+}
+.nm-core-av-cpu .cpu {
+  float: left;
+}
+.nm-core-av-cpu .cpu-level {
+  font-size: 14px;
+  color: rgba(235,122,109,0.75);
+  text-align: center;
+  margin: -40px 0 20px 0;
+}
+.nm-core-av-cpu .cpu-title {
+  text-align: center;
+  margin-top: -6px;
+}
+.nm-core-av-cpu .cpu-gauge {
+  padding: 10px;
+  width: 130px;
+  height: 80px;
+  margin-top: -26px;
+}
+.nm-core-av-mem .mem {
+  width: 300px;
+  float: left;
+}
+.nm-core-av-mem .mem-stat {
+  float:left;
+  width: 164px;
+  padding-top: 36px;
+  text-align: right;
+}
+.nm-core-av-mem .mem-stat span {
+  width: 16px;
+  display: inline-block;
+  border-radius: 2px;
+  line-height: 100%;
+}
+.nm-core-av-mem .stat1 {
+  background-color: rgb(200,183,155);
+}
+.nm-core-av-mem .stat2 {
+  background-color: rgb(255,100,100);
+}
+.nm-core-av-mem .stat3 {
+  background-color: rgb(100,100,255);
+}
+
+.nm-core-av-mem .mem-bar {
+  float:left;
+  height: 130px;
+  width: 130px;
+}
+.nm-core-av-info {
+  margin: 6px;
+}
+.nm-core-av-anim-head {
+  margin: 0 5px 0 35px;
+  font-size: 13px;
+  color: #555;
+}
+
