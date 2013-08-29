@@ -1,0 +1,21 @@
+{
+  "id": "/app/core/clock",
+  "title": "Clock",
+  "components": [
+    {
+      "id": "c0",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "",
+        "background": true,
+        "title": "HTML Template"
+      },
+      "css": {
+        ".nm-cv": "top:10px; z-index:1; left:0px;",
+        ".nm-cv-viewport": "height:150px; width:300px;"
+      },
+      "monitor": {}
+    }
+  ],
+  "description": "Documentation page for the clock component"
+}

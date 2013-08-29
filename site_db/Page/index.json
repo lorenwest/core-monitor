@@ -1,7 +1,7 @@
 {
   "id": "/index",
-  "title": "Home - Node Monitor",
-  "description": "Remote Monitoring and Control Panels for Node.js",
+  "title": "Core Components",
+  "description": "Core components for the node-monitor project",
   "components": [
     {
       "id": "c0",
