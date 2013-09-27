@@ -1,6 +1,7 @@
 {
   "id": "/app/core/clock",
   "title": "Clock",
+  "description": "Documentation page for the clock component",
   "components": [
     {
       "id": "c0",
@@ -16,6 +17,5 @@
       },
       "monitor": {}
     }
-  ],
-  "description": "Documentation page for the clock component"
+  ]
 }

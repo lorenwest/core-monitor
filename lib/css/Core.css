@@ -317,8 +317,11 @@ input.nm-core-inspector-expression {
 .nm-core-av-info {
   margin: 6px;
 }
+.nm-core-av-anim {
+  margin-top:-30px;
+}
 .nm-core-av-anim-head {
-  margin: 0 5px 0 35px;
+  margin: 0 5px 0 34px;
   font-size: 13px;
   color: #555;
 }

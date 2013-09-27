@@ -1,2 +1,2 @@
-Core Node Monitor Application
-=============================
+Core Node-Monitor Components
+============================
