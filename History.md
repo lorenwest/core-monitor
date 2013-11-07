@@ -1,4 +1,4 @@
-0.6.0 / 2013
+0.6.0 / 2013-11-06
 ==================
 
   * Made compatible with 6.0 monitor changes
