@@ -1,2 +1,2 @@
-Core Node-Monitor Components
-============================
+Core Monitor Dashboard Components
+=================================

@@ -5,6 +5,6 @@
   "main": "lib/index.js",
   "dependencies": {
     "connect": ">=1.7.2 <1.8.0",
-    "monitor": ">=0.5.3 <0.6.0"
+    "monitor-dashboard": ">=0.6.0 <0.7.0"
   }
 }
