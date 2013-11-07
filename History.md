@@ -2,6 +2,7 @@
 ==================
 
   * Made compatible with 6.0 monitor changes
+  * Added a repository field in package.json
 
 0.5.4 / 2013-10-17
 ==================

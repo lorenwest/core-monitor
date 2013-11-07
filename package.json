@@ -3,6 +3,10 @@
   "description": "Core Components",
   "version": "0.6.0",
   "main": "lib/index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/lorenwest/core-monitor.git"
+  },
   "dependencies": {
     "connect": ">=1.7.2 <1.8.0",
     "monitor": ">=0.6.0 <0.7.0",
