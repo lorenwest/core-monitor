@@ -1,3 +1,9 @@
+0.6.1 / 2013-11-07
+==================
+
+  * Removed unnecessary Page and Tour directories
+  * Server shouldn't require probe directory
+
 0.6.0 / 2013-11-06
 ==================
 
