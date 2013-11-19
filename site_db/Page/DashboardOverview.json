@@ -49,7 +49,7 @@
       "id": "c4",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Sidebar</h3>\n  <p> \n    Pages in your site are shown in the sidebar for easy navigation, organized by the path to the page.\n  </p>\n  <p>\n    Page tours are also shown in the sidebar, and can be run by selecting the tour. For more on tours, head over to the <a href=\"/app/core/dashboards/TourOverview\">tour overview</a> page.</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Sidebar</h3>\n  <p> \n    Pages in your site are shown in the sidebar for easy navigation, organized by the path to the page.\n  </p>\n  <p>\n    Page tours are also shown in the sidebar, and can be run by selecting the tour. For more on tours, head over to the <a href=\"/app/core/TourOverview\">tour overview</a> page.</p>\n</div>",
         "background": false,
         "title": ""
       },

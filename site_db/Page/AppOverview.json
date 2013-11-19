@@ -1,7 +1,7 @@
 {
-  "id": "/app/core/apps/index",
+  "id": "/app/core/AppOverview",
   "title": "Monitor Applications",
-  "description": "Node monitor tour - Dashboards",
+  "description": "Node monitor tour - Applications",
   "components": [
     {
       "id": "c0",
