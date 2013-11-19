@@ -109,14 +109,14 @@
           ]
         },
         "background": true,
-        "siteUrl": "http://www.npmjs.org/",
-        "scrollBars": false,
-        "offsetTop": -53,
-        "offsetLeft": -205
+        "siteUrl": "http://money.cnn.com/data/markets/",
+        "scrollBars": true,
+        "offsetTop": -159,
+        "offsetLeft": 291
       },
       "css": {
         ".nm-cv": "top:160px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:240px; width:380px;"
+        ".nm-cv-viewport": "height:270px; width:380px;"
       },
       "monitor": {}
     }
