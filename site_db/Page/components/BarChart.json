@@ -1,0 +1,112 @@
+{
+  "id": "/app/core/components/BarChart",
+  "title": "Bar Chart",
+  "description": "Documentation page for the Bar Chart component.",
+  "components": [
+    {
+      "id": "c1",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<style type=\"text/css\">\n#text p { \n  font-weight:300;\n  margin: 0 0 8px 10px;\n  font-size: 16px;\n  line-height: 1.3em\n}\n#text p a { \n  text-decoration: underline;\n}\n#text h3 {\n  font-size:32px;\n  font-weight:300;\n  margin: 22px 0 10px 0\n}\n#text h3:first-child {\n  margin-top:10px;\n}\n.nm-cv-viewport img {\n  border-radius:3px;\n}\n.headerbox {\n  background: #010101; \n  border-radius:6px; height:100%; \n  box-sizing:border-box; padding:15px;\n  font-size:52px;\n  font-weight:300; \n  text-align:center;\n  line-height:1.15em;\n}\n.headerbox img{\nheight:64px;\nwidth:64px;\nmargin: -5px 20px 0 0;\nborder-radius: 10px;\nborder:2px solid #666;\n-webkit-box-shadow: 3px 3px 8px #666\n}\n</style>\n<div class=\"headerbox\"> <img src=\"/app/core/image/BarChart.png\" title=\"Image: /app/core/image/BarChart.png\">Bar Chart</div>",
+        "background": true,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:10px; z-index:5; left:0px;",
+        ".nm-cv-viewport": "height:90px; width:860px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c3",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Bar Chart&nbsp;component...\n</p>\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:150px; z-index:7; left:350px;",
+        ".nm-cv-viewport": "height:230px; width:530px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c4",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3><i class=\"icon-question-sign\"></i> Questions</h3>\n<p>\n  <a href=\"https://twitter.com/intent/tweet?source=webclient&amp;text=%23NodeMonitor%20%23NodeJS\" target=\"_blank\">Tweet to #NodeMonitor</a> or <a href=\"https://github.com/lorenwest/monitor-dashboard/issues\" target=\"_blank\" >add/view issues</a> on GitHub.\n\n</p>\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:540px; z-index:8; left:0px;",
+        ".nm-cv-viewport": "height:210px; width:560px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c5",
+      "viewClass": "core.BarChart",
+      "viewOptions": {
+        "title": "BarChart",
+        "highcharts": {
+          "chart": {
+            "type": "column"
+          },
+          "legend": {
+            "enabled": false
+          },
+          "xAxis": {
+            "title": {
+              "text": "Values"
+            },
+            "labels": {
+              "enabled": true
+            }
+          },
+          "yAxis": {
+            "title": {
+              "text": ""
+            },
+            "labels": {
+              "enabled": true
+            }
+          },
+          "plotOptions": {
+            "bar": {
+              "color": "rgba(200,183,155,1)"
+            },
+            "column": {
+              "color": "rgba(200,183,155,1)"
+            }
+          },
+          "series": [
+            {
+              "name": "value",
+              "data": [
+                1,
+                0,
+                4,
+                10,
+                3,
+                8,
+                7,
+                7,
+                3,
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        "background": true
+      },
+      "css": {
+        ".nm-cv": "top:160px; left:0px; z-index:9;",
+        ".nm-cv-viewport": "height:300px; width:300px;"
+      },
+      "monitor": {}
+    }
+  ]
+}
