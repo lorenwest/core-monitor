@@ -4,6 +4,7 @@
   * Updated monitor dependencies
   * Moved default home & 404 pages into core-monitor
   * Moved documentation from monitor-dashboard into core-monitor
+  * Updated icon images
 
 0.6.1 / 2013-11-07
 ==================
