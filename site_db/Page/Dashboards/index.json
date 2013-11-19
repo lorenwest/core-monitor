@@ -21,12 +21,12 @@
       "id": "c2",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/app/core/css/images/add-a-component.jpg\">",
+        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/app/core/css/images/add-a-component.jpg\" title=\"Add a component\">",
         "background": true,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:550px; z-index:15; left:700px;",
+        ".nm-cv": "top:548px; z-index:24; left:701px;",
         ".nm-cv-viewport": "height:190px; width:160px;"
       },
       "monitor": {}
@@ -63,21 +63,22 @@
       "id": "c5",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Components</h3>\n  <p> \n Components are the items contained on a dashboard page. They are added by selecting \"Add a Component\" on the drop down menu, and they can be sized and positioned anywhere on the canvas.</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Components</h3>\n  <p> \n Components are the items contained on a dashboard page. They are added by selecting \"Add a Component\" on the drop down menu, and they can be sized and positioned anywhere on the canvas. Move your mouse <a id=\"hoverOverThis\" href=\"javascript:#\" title=\"Show component outlines for a couple seconds\">over this</a> to see the components that make up&nbsp;this page.</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:560px; z-index:16; left:4px;",
+        ".nm-cv": "top:549px; z-index:23; left:4px;",
         ".nm-cv-viewport": "height:100px; width:680px;"
       },
+      "onInit": "$('#hoverOverThis').on('mouseover', function() {\npageView.editPage();\nsetTimeout(function(){\npageView.unlockPage();}\n,2000);\n});",
       "monitor": {}
     },
     {
       "id": "c6",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/app/core/css/images/header.jpg\" title=\"Image: /app/core/css/images/header.jpg\">",
+        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/app/core/css/images/header.jpg\" title=\"Node monitor header\">",
         "background": true,
         "title": ""
       },
@@ -91,7 +92,7 @@
       "id": "c7",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/app/core/css/images/sidebar.jpg\" title=\"Image: /app/core/css/images/sidebar.jpg\">",
+        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/app/core/css/images/sidebar.jpg\" title=\"Node monitor sidebar\">",
         "background": true,
         "title": ""
       },
@@ -190,7 +191,7 @@
         "background": true
       },
       "css": {
-        ".nm-cv": "top:700px; z-index:22; left:30px;",
+        ".nm-cv": "top:700px; z-index:25; left:20px;",
         ".nm-cv-viewport": "height:140px; width:140px;"
       },
       "monitor": {}
@@ -199,13 +200,13 @@
       "id": "c10",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Components</h3>\n  <p> \n Components are the items contained on a dashboard page. They are added by selecting \"Add a Component\" on the drop down menu, and they can be sized and positioned anywhere on the canvas.\n  </p>\n  <p>\nClicking on the component title opens a settings screen to customize the component. Changes are seen immediately, but aren't persisted to the page until the 'Save' button is pressed. A \"view source\" button is available giving you access to the underlying structure of that component.\n  </p>\n  <p>\nA core set of components from the core-monitor project are bundled with Node Monitor, and other component types can be written and packaged as monitor apps.\n </p>\n</div>",
+        "htmlValue": "<style type=\"text/css\">\n#text table img {\n  height: 54px;\n  width: 54px;\n  margin: 10px 10px 0 10px;\n  border-radius:10px;\n  border: 2px solid #666;\n  cursor: pointer;\n  text-decoration:none;\n  -webkit-box-shadow: 2px 2px 6px #666;\n}\n#text table h5 {\n  font-weight: 300;\n  font-size: 22px;\n  margin: 20px 0 10px 10px;\n}\n</style>\n<div id=\"text\">\n  <h3>Core Components</h3>\n  <p>\n    The following components are from the <a href=\"http://npmjs.org/core-monitor\" title=\"core-monitor on npmjs.org\" target=\"_blank\">core-monitor</a> project, and installed by default. &nbsp;Click the icon for more information.</p>\n  <p></p><table><tbody>\n    <tr>\n      <td><a href=\"/app/core/components/button\"><img src=\"/app/core/image/Button.png\" title=\"Button Page\"></a></td>\n      <td>\n        <h5>Button</h5>\n        <p>A push button that runs javascript on the page when pressed</p>\n      </td>\n    </tr>\n  </tbody></table><p></p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:1010px; z-index:19; left:10px;",
-        ".nm-cv-viewport": "height:300px; width:680px;"
+        ".nm-cv": "top:920px; z-index:19; left:10px;",
+        ".nm-cv-viewport": "height:290px; width:870px;"
       },
       "monitor": {}
     },
@@ -213,12 +214,12 @@
       "id": "c11",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <p> \n  This clock is a component.\n</p>\n<p>\n  It has a title bar on the top and the clock inside. You can position the clock on the page&nbsp;by dragging in the title bar, to the right of the title.\n</p><p><br></p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <p> \n  This is a clock component to the left.\n</p>\n<p>\n  It has a title bar on the top and the clock inside. You can position the clock on the page&nbsp;by dragging in the title bar, to the right of the title.\n</p><p><br></p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:690px; z-index:20; left:220px;",
+        ".nm-cv": "top:700px; z-index:20; left:220px;",
         ".nm-cv-viewport": "height:90px; width:460px;"
       },
       "monitor": {}
@@ -232,8 +233,8 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:800px; z-index:21; left:220px;",
-        ".nm-cv-viewport": "height:90px; width:660px;"
+        ".nm-cv": "top:810px; z-index:21; left:220px;",
+        ".nm-cv-viewport": "height:80px; width:660px;"
       },
       "monitor": {}
     }
