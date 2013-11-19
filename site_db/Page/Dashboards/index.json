@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/dashboards/index",
+  "id": "/app/core/dashboards",
   "title": "Dashboard Overview",
   "description": "Node monitor tour - Dashboards",
   "components": [
@@ -200,7 +200,7 @@
       "id": "c10",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<style type=\"text/css\">\n#text table img {\n  height: 54px;\n  width: 54px;\n  margin: 10px 10px 0 10px;\n  border-radius:10px;\n  border: 2px solid #666;\n  cursor: pointer;\n  text-decoration:none;\n  -webkit-box-shadow: 2px 2px 6px #666;\n}\n#text table h5 {\n  font-weight: 300;\n  font-size: 22px;\n  margin: 20px 0 10px 10px;\n}\n</style>\n<div id=\"text\">\n  <h3>Core Components</h3>\n  <p>\n    The following components are from the <a href=\"http://npmjs.org/core-monitor\" title=\"core-monitor on npmjs.org\" target=\"_blank\">core-monitor</a> project, and installed by default. &nbsp;Click the icon for more information.</p>\n  <p></p><table><tbody>\n    <tr>\n      <td><a href=\"/app/core/components/button\"><img src=\"/app/core/image/Button.png\" title=\"Button Page\"></a></td>\n      <td>\n        <h5>Button</h5>\n        <p>A push button that runs javascript on the page when pressed</p>\n      </td>\n    </tr>\n  </tbody></table><p></p>\n</div>",
+        "htmlValue": "<style type=\"text/css\">\n#text table img {\n  height: 54px;\n  width: 54px;\n  margin: 10px 10px 0 10px;\n  border-radius:10px;\n  border: 2px solid #666;\n  cursor: pointer;\n  text-decoration:none;\n  -webkit-box-shadow: 2px 2px 6px #666;\n}\n#text table h5 {\n  font-weight: 300;\n  font-size: 22px;\n  margin: 20px 0 10px 10px;\n}\n</style>\n<div id=\"text\">\n  <h3>Core Components</h3>\n  <p>\n    The following components are from the <a href=\"http://npmjs.org/core-monitor\" title=\"core-monitor on npmjs.org\" target=\"_blank\" data-placement=\"bottom\">core-monitor</a> project, and installed by default. &nbsp;Click the icon for more information.</p>\n  <p></p><table><tbody>\n    <tr>\n      <td><a href=\"/app/core/Components/Button\"><img src=\"/app/core/image/Button.png\" title=\"Button Page\"></a></td>\n      <td>\n        <h5>Button</h5>\n        <p>A push button that runs javascript on the page when pressed</p>\n      </td>\n    </tr>\n  </tbody></table><p></p>\n</div>",
         "background": false,
         "title": ""
       },
