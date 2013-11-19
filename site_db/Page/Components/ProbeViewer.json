@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/ProbeViewer",
+  "id": "/app/core/Components/ProbeViewer",
   "title": "Probe Viewer",
   "description": "Documentation page for the Pie Chart component.",
   "components": [
@@ -57,7 +57,7 @@
         ".nm-cv-viewport": "height:300px; width:300px;"
       },
       "monitor": {
-        "probeClass": "Inspect",
+        "probeClass": "Process",
         "appInstance": "1"
       }
     }
