@@ -1,0 +1,23 @@
+{
+  "id": "/app/core/apps/index",
+  "title": "Monitor Applications",
+  "description": "Node monitor tour - Dashboards",
+  "components": [
+    {
+      "id": "c0",
+      "viewClass": "core.AppViewer",
+      "viewOptions": {
+        "animation": true,
+        "background": true,
+        "title": "Process Monitor"
+      },
+      "css": {
+        ".nm-cv": "top:10px; z-index:1; left:0px;",
+        ".nm-cv-viewport": "height:600px; width:600px;"
+      },
+      "monitor": {
+        "probeClass": "Process"
+      }
+    }
+  ]
+}

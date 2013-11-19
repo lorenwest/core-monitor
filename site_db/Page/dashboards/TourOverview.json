@@ -1,0 +1,91 @@
+{
+  "id": "/app/core/dashboards/TourOverview",
+  "title": "Tour Overview",
+  "description": "Node monitor tour - Tours",
+  "components": [
+    {
+      "id": "c1",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<style type=\"text/css\">\n#text p { \n  font-weight:300;\n  margin: 0 0 8px 10px;\n  font-size: 16px;\n  line-height: 1.3em\n}\n#text p a { \n  text-decoration: underline;\n}\n#text h3 {\n  font-size:32px;\n  font-weight:300;\n  margin: 22px 0 10px 0\n}\n#text h3:first-child {\n  margin-top:10px;\n}\n.nm-cv-viewport img {\n  border-radius:3px;\n}\n</style>\n<div style=\"background: #010101; border-radius:6px; height:100%; box-sizing:border-box; padding:15px; font-size:52px; font-weight:300; text-align:center;line-height:1.15em\">Site Tours</div>",
+        "background": true,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:10px; z-index:5; left:0px;",
+        ".nm-cv-viewport": "height:90px; width:860px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c2",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/app/core/css/images/add-a-component.jpg\">",
+        "background": true,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:540px; z-index:15; left:700px;",
+        ".nm-cv-viewport": "height:190px; width:160px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c3",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3>Header</h3>\n  <p> \n    The header contains the page title and main&nbsp;menu. Most page elements show more information when you hover over them.&nbsp;</p><p><span style=\"line-height: 1.3em;\">For example, clicking the Node Monitor logo to the right hides and shows the header bar.</span><br></p><p> \n</p></div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:180px; z-index:10; left:1px;",
+        ".nm-cv-viewport": "height:110px; width:880px; z-index:10;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c4",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3>Sidebar</h3>\n  <p> \n    Pages in your site are shown in the sidebar for easy navigation, organized by the path to the page.\n  </p>\n  <p>\n    Page tours are also shown in the sidebar, and can be run by selecting the tour. For more on tours, head over to the <a href=\"/app/core/dashboards/TourOverview\">tour overview</a> page.</p>\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:330px; z-index:7; left:190px;",
+        ".nm-cv-viewport": "height:140px; width:690px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c5",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3>Components</h3>\n  <p> \n Components are the items contained on a dashboard page. They are added by selecting \"Add a Component\" on the drop down menu, and they can be sized and positioned anywhere on the canvas.\n  </p>\n  <p>\nClicking on the component title opens a settings screen to customize the component. Changes are seen immediately, but aren't persisted to the page until the 'Save' button is pressed. A \"view source\" button is available giving you access to the underlying structure of that component.\n  </p>\n  <p>\nA core set of components from the core-monitor project are bundled with Node Monitor, and other component types can be written and packaged as monitor apps.\n </p>\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:560px; z-index:16; left:4px;",
+        ".nm-cv-viewport": "height:300px; width:680px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c7",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/app/core/css/images/sidebar.jpg\" title=\"Image: /app/core/css/images/sidebar.jpg\">",
+        "background": true,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:326px; z-index:14; left:2px;",
+        ".nm-cv-viewport": "height:180px; width:130px;"
+      },
+      "monitor": {}
+    }
+  ]
+}

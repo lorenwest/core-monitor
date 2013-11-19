@@ -1,7 +1,7 @@
 {
   "name": "core-monitor",
   "description": "Core Components",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "main": "lib/index.js",
   "repository": {
     "type" : "git",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "connect": ">=1.7.2 <1.8.0",
-    "monitor": ">=0.6.0 <0.7.0",
-    "monitor-dashboard": ">=0.6.0 <0.7.0"
+    "monitor": ">=0.6.3 <0.7.0",
+    "monitor-dashboard": ">=0.6.2 <0.7.0"
   }
 }

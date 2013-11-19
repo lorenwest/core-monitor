@@ -1,3 +1,10 @@
+0.6.2 / 
+==================
+
+  * Updated monitor dependencies
+  * Moved default home & 404 pages into core-monitor
+  * Moved documentation from monitor-dashboard into core-monitor
+
 0.6.1 / 2013-11-07
 ==================
 
