@@ -115,7 +115,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The digital clock component is a display of an&nbsp;analogue clock.</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The clock is a handy component to drop onto your dashboard when it's important to show the local time.</p>\n</div>",
         "background": false,
         "title": ""
       },

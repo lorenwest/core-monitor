@@ -12,7 +12,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:10px; z-index:5; left:2px;",
+        ".nm-cv": "top:10px; z-index:5; left:0px;",
         ".nm-cv-viewport": "height:90px; width:860px;"
       },
       "monitor": {}
@@ -21,13 +21,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The application processes monitor&nbsp;an aggregation of 3 components:<br><br>CPU &amp; System Load- &nbsp;four gauges of CPU activity.<br><br>Memory Usage&nbsp;- Memory used and available.<br><br>Process information - Current processes on your machine.</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The app viewer provides a quick overview of your application process.</p><p>Current CPU activity and load averages show how hard the CPU is working.<br><br>Memory usage shows the memory footprint of this process, and a system wide memory view, showing how much memory this process is consuming.<br><br>The bottom section is&nbsp;information provided by Node.js about this process.</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
         ".nm-cv": "top:150px; z-index:10; left:650px;",
-        ".nm-cv-viewport": "height:440px; width:240px;"
+        ".nm-cv-viewport": "height:440px; width:230px;"
       },
       "monitor": {}
     },
@@ -55,7 +55,7 @@
       },
       "css": {
         ".nm-cv": "top:160px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:370px; width:620px;"
+        ".nm-cv-viewport": "height:370px; width:610px;"
       },
       "monitor": {
         "probeClass": "Process"

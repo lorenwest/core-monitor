@@ -12,7 +12,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:10px; z-index:5; left:4px;",
+        ".nm-cv": "top:10px; z-index:5; left:0px;",
         ".nm-cv-viewport": "height:90px; width:860px;"
       },
       "monitor": {}
@@ -21,13 +21,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Slider&nbsp;component is a device to show and&nbsp;change incremental levels of an object.&nbsp;</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Slider&nbsp;component is a device that shows and allows you to&nbsp;change incremental values of an object. The value can be set from probe data, and user altered values can be forwarded to probes running in your app server.</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:150px; z-index:7; left:320px;",
-        ".nm-cv-viewport": "height:350px; width:340px;"
+        ".nm-cv": "top:150px; z-index:7; left:340px;",
+        ".nm-cv-viewport": "height:110px; width:530px;"
       },
       "monitor": {}
     },
@@ -40,7 +40,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:280px; z-index:8; left:0px;",
+        ".nm-cv": "top:320px; z-index:8; left:0px;",
         ".nm-cv-viewport": "height:100px; width:570px;"
       },
       "monitor": {}
@@ -60,7 +60,7 @@
         "label": "daf"
       },
       "css": {
-        ".nm-cv": "top:160px; z-index:9; left:5px;",
+        ".nm-cv": "top:180px; z-index:9; left:10px;",
         ".nm-cv-viewport": "height:30px; width:270px;"
       },
       "monitor": {}

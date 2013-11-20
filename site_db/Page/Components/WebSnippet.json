@@ -12,8 +12,8 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:10px; z-index:5; left:2px;",
-        ".nm-cv-viewport": "height:90px; width:860px;"
+        ".nm-cv": "top:10px; z-index:5; left:0px;",
+        ".nm-cv-viewport": "height:90px; width:870px;"
       },
       "monitor": {}
     },
@@ -21,13 +21,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Web Snippet&nbsp;component is a tool to view a small portion of the internet right on your dashboard. Some examples would be to view video clips, stream an RSS feed, or keep an eye on your stock reports.</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Web Snippet is a tool that displays&nbsp;a portion of an external web page&nbsp;right on your dashboard.\n</p>\n<p>\nSome examples would be to view video clips, stream an RSS feed, or keep an eye on your stock reports.\n</p><p>This can be used for sites that don't prevent &lt;iframe&gt; usage.</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:150px; z-index:7; left:430px;",
-        ".nm-cv-viewport": "height:350px; width:340px;"
+        ".nm-cv": "top:150px; z-index:10; left:690px;",
+        ".nm-cv-viewport": "height:330px; width:200px;"
       },
       "monitor": {}
     },
@@ -40,7 +40,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:490px; z-index:8; left:0px;",
+        ".nm-cv": "top:530px; z-index:8; left:0px;",
         ".nm-cv-viewport": "height:100px; width:570px;"
       },
       "monitor": {}
@@ -110,13 +110,13 @@
         },
         "background": true,
         "siteUrl": "http://money.cnn.com/data/markets/",
-        "scrollBars": true,
-        "offsetTop": -326,
-        "offsetLeft": 310
+        "scrollBars": false,
+        "offsetTop": -157,
+        "offsetLeft": 622
       },
       "css": {
         ".nm-cv": "top:160px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:270px; width:380px;"
+        ".nm-cv-viewport": "height:290px; width:650px;"
       },
       "monitor": {}
     }

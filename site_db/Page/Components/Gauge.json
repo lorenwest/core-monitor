@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3><p><br>The Gauge component is for measuring the magnitude, amount, or contents of something. The min/max values can be set in the component settings menu.</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3><p><br>The Gauge component is for measuring the magnitude, amount, or contents of something. The min/max values can be set in the component settings menu, and the gauge value can be set from a probe running in your app server.</p>\n</div>",
         "background": false,
         "title": ""
       },

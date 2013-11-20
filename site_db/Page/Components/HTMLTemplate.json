@@ -21,13 +21,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The HTML Template&nbsp;component allows you to write HTML in the settings editor&nbsp;and instantly view&nbsp;your code&nbsp;in the window. Maybe the most widely used component, and with the most potential.</p>\n</div>",
+        "htmlValue": "{{=&lt;% %&gt;=}}\n<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The HTML Template&nbsp;component allows you to write any HTML directly onto your dashboard.</p><p>You can switch from an HTML WYSIWYG view to the raw HTML, depending on the format you are most comfortable with.</p><p>It's called a template because it allows you to define mustache-style template parameters {{ and }}, and have those parameters filled in from a probe running in your app server.</p><p>Possibly the most widely used component, this gives you full control of your dashboard content and style.</p>\n</div>\n&lt;%={{ }}=%&gt;",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:150px; z-index:7; left:430px;",
-        ".nm-cv-viewport": "height:340px; width:450px;"
+        ".nm-cv": "top:150px; z-index:7; left:440px;",
+        ".nm-cv-viewport": "height:340px; width:440px;"
       },
       "monitor": {}
     },
@@ -49,12 +49,12 @@
       "id": "c5",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div>&lt;h1&gt;<br></div><div>&nbsp;&nbsp;My first heading<br>&lt;/h1&gt;</div><div><br></div><div>&lt;p&gt;<br>&nbsp;&nbsp;My first paragraph.<br>&lt;/p&gt;</div><div><br></div><div><br></div><div><br></div>",
+        "htmlValue": "{{=&lt;% %&gt;=}}\n<div>&lt;h1&gt;<br></div><div>&nbsp;&nbsp;My Heading<br>&lt;/h1&gt;</div><div><br></div><div>&lt;p&gt;<br>&nbsp;&nbsp;My first paragraph.<br>&lt;/p&gt;<br><br></div><div>&lt;p&gt;<br>&nbsp; Host name:  {{hostname}}<br>&lt;/p&gt;</div><div><br></div>\n&lt;%={{ }}=%&gt;",
         "background": true,
         "title": "HTML Template"
       },
       "css": {
-        ".nm-cv": "top:170px; z-index:9; left:0px;",
+        ".nm-cv": "top:180px; z-index:9; left:10px;",
         ".nm-cv-viewport": "height:200px; width:250px;"
       },
       "monitor": {}
@@ -63,15 +63,18 @@
       "id": "c6",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<!DOCTYPE html>\n<html>\n<body>\n\n<h1>My First Heading</h1>\n\n<p>My first paragraph.</p>\n\n</body>\n</html>\n",
+        "htmlValue": "<h1>My Heading</h1><p><br></p><p>My first paragraph.</p><p>Host name: <i>{{hostname}}</i></p>",
         "background": true,
         "title": "HTML Template"
       },
       "css": {
-        ".nm-cv": "top:260px; z-index:10; left:140px;",
-        ".nm-cv-viewport": "height:200px; width:250px;"
+        ".nm-cv": "top:220px; z-index:10; left:200px;",
+        ".nm-cv-viewport": "height:210px; width:190px;"
       },
-      "monitor": {}
+      "monitor": {
+        "probeClass": "Process",
+        "appInstance": "1"
+      }
     }
   ]
 }

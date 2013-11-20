@@ -21,13 +21,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Log Viewer&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  This isn't a normal&nbsp;log viewer. &nbsp;It shows log statements as they happen by listening to log events fired on&nbsp;your app server.</p><p>You can&nbsp;select which log statements to view, and if the logs consist of JSON objects, they can be expanded inline, offering a dense overview with drill-down capabilities.</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:150px; z-index:10; left:0px;",
-        ".nm-cv-viewport": "height:82px; width:875px;"
+        ".nm-cv": "top:140px; z-index:10; left:0px;",
+        ".nm-cv-viewport": "height:110px; width:880px;"
       },
       "monitor": {}
     },
@@ -53,8 +53,8 @@
         "background": true
       },
       "css": {
-        ".nm-cv": "top:250px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:260px; width:860px;"
+        ".nm-cv": "top:280px; z-index:9; left:0px;",
+        ".nm-cv-viewport": "height:250px; width:860px;"
       },
       "monitor": {
         "probeClass": "Log",

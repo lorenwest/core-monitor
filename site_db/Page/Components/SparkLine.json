@@ -21,13 +21,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Spark Line&nbsp;component enables you to create a Spark Line graph; a very small line chart, typically drawn without axes or coordinates.<span style=\"color: rgb(200, 183, 155); font-size: 16px; line-height: 20.796875px;\">&nbsp;Values&nbsp;</span><span style=\"color: rgb(200, 183, 155); font-size: 16px; line-height: 20.796875px;\">can be statically&nbsp;modified in the component's settings menu, or can be dynamically modified with probe data.</span></p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Spark Line&nbsp;component enables you to create a Spark Line graph - a very small line chart, typically drawn without axes or coordinates.\n</p>\n<p>\n  Values can be statically modified in the component's settings menu, or can be dynamically modified with probe data from your app servers.</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
         ".nm-cv": "top:150px; z-index:7; left:410px;",
-        ".nm-cv-viewport": "height:350px; width:340px;"
+        ".nm-cv-viewport": "height:250px; width:460px;"
       },
       "monitor": {}
     },

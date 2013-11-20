@@ -12,7 +12,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:10px; z-index:5; left:2px;",
+        ".nm-cv": "top:10px; z-index:5; left:0px;",
         ".nm-cv-viewport": "height:90px; width:860px;"
       },
       "monitor": {}
@@ -21,13 +21,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Probe Viewer&nbsp;component provides a view of the JSON value of any probe, updated in real-time.</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Probe Viewer component provides a view of the JSON value of any probe installed in your app server, updated in real-time.\n</p>\n<p>\n  The example to the left is showing a process probe.  Scroll down a bit to see some values changing in real time.\n</p>\n<p>\n  Complex objects can be expanded and contracted by selecting the <i class=\"icon-caret-down\"></i> and <i class=\"icon-caret-right\"></i> icon to the left of the object.\n</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:150px; z-index:7; left:580px;",
-        ".nm-cv-viewport": "height:340px; width:270px;"
+        ".nm-cv": "top:150px; z-index:7; left:620px;",
+        ".nm-cv-viewport": "height:340px; width:250px;"
       },
       "monitor": {}
     },
@@ -53,8 +53,8 @@
         "background": true
       },
       "css": {
-        ".nm-cv": "top:160px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:300px; width:540px;"
+        ".nm-cv": "top:150px; z-index:9; left:0px;",
+        ".nm-cv-viewport": "height:310px; width:570px;"
       },
       "monitor": {
         "probeClass": "Process",

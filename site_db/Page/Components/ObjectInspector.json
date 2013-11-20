@@ -60,7 +60,7 @@
         "probeClass": "Inspect",
         "initParams": {
           "key": "window",
-          "depth": 1
+          "depth": "2"
         },
         "appInstance": "1"
       }

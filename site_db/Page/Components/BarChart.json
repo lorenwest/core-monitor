@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Bar Chart displays data visually. Data is displayed vertically, and can be statically&nbsp;modified in the component's settings menu, or can be dynamically modified with probe data.</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Bar Chart displays numeric data vertically.</p><p>Data can be statically&nbsp;modified in the component's settings menu, or can be dynamically modified with probe data from your app servers.<br></p>\n</div>",
         "background": false,
         "title": ""
       },
