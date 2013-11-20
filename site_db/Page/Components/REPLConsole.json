@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>The REPL Console is a developer's&nbsp;component that&nbsp;facilitates exploratory debugging for your app servers.<br></p><p>It's used mostly during development, and&nbsp;invaluable when your process isn't acting the way it should, and you need to poke around.</p><p>Placing key top level objects onto the Node.js global namespace can make working in the REPL Console more enjoyable.</p><p>Be careful though. &nbsp;You're working in the same process as your app server.</p><p><br></p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>The REPL Console is a developer's&nbsp;component that facilitates exploratory debugging for your app servers.\n</p><p>\nIt's used mostly during development, and invaluable when your process isn't acting the way it should, and you need to poke around.\n</p><p>\nPlacing key top level objects onto the Node.js global namespace can make working in the REPL Console more enjoyable.\n</p><p>\nBe careful though. You're working in the same process as your app server.\n</p>\n</div>",
         "background": false,
         "title": ""
       },
