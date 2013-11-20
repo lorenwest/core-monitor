@@ -58,8 +58,7 @@
       },
       "monitor": {
         "probeClass": "Repl",
-        "hostName": "localhost",
-        "initParams": {}
+        "hostName": "localhost"
       }
     }
   ]
