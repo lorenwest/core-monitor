@@ -12,7 +12,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:10px; z-index:5; left:4px;",
+        ".nm-cv": "top:10px; z-index:5; left:0px;",
         ".nm-cv-viewport": "height:90px; width:860px;"
       },
       "monitor": {}
@@ -26,8 +26,8 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:160px; z-index:7; left:310px;",
-        ".nm-cv-viewport": "height:230px; width:530px;"
+        ".nm-cv": "top:160px; z-index:7; left:330px;",
+        ".nm-cv-viewport": "height:150px; width:540px;"
       },
       "monitor": {}
     },
@@ -41,7 +41,7 @@
       },
       "css": {
         ".nm-cv": "top:370px; z-index:8; left:0px;",
-        ".nm-cv-viewport": "height:210px; width:560px;"
+        ".nm-cv-viewport": "height:120px; width:580px;"
       },
       "monitor": {}
     },
@@ -117,7 +117,7 @@
         "background": true
       },
       "css": {
-        ".nm-cv": "top:170px; z-index:9; left:0px;",
+        ".nm-cv": "top:170px; z-index:9; left:30px;",
         ".nm-cv-viewport": "height:100px; width:220px;"
       },
       "monitor": {}
