@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/Button",
+  "id": "/app/core/Components/Button",
   "title": "Button",
   "description": "Documentation page for the Button component.",
   "components": [
@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Button&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Button&nbsp;component allows you to write javascript code to run when the&nbsp;button is pressed.</p>\n</div>",
         "background": false,
         "title": ""
       },

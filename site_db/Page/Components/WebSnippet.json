@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/WebSnippet",
+  "id": "/app/core/Components/WebSnippet",
   "title": "Web Snippet",
   "description": "Documentation page for the Web Snippet component.",
   "components": [
@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Web Snippet&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Web Snippet&nbsp;component is a tool to view a small portion of the internet right on your dashboard. Some examples would be to view video clips, stream an RSS feed, or keep an eye on your stock reports.</p>\n</div>",
         "background": false,
         "title": ""
       },
@@ -111,8 +111,8 @@
         "background": true,
         "siteUrl": "http://money.cnn.com/data/markets/",
         "scrollBars": true,
-        "offsetTop": -159,
-        "offsetLeft": 291
+        "offsetTop": -326,
+        "offsetLeft": 310
       },
       "css": {
         ".nm-cv": "top:160px; z-index:9; left:0px;",

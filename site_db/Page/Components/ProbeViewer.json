@@ -21,13 +21,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Probe Viewer&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Probe Viewer&nbsp;component provides a view of the JSON value of any probe, updated in real-time.</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:150px; z-index:7; left:380px;",
-        ".nm-cv-viewport": "height:250px; width:450px;"
+        ".nm-cv": "top:150px; z-index:7; left:580px;",
+        ".nm-cv-viewport": "height:340px; width:270px;"
       },
       "monitor": {}
     },
@@ -54,7 +54,7 @@
       },
       "css": {
         ".nm-cv": "top:160px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:300px; width:300px;"
+        ".nm-cv-viewport": "height:300px; width:540px;"
       },
       "monitor": {
         "probeClass": "Process",

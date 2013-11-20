@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/PieChart",
+  "id": "/app/core/Components/PieChart",
   "title": "Pie Chart",
   "description": "Documentation page for the Pie Chart component.",
   "components": [
@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Pie Chart&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Pie Chart&nbsp;component is a circular chart divided into sectors, illustrating relative magnitudes or frequencies.&nbsp;<span style=\"color: rgb(200, 183, 155); font-size: 16px; line-height: 20.796875px;\">&nbsp;Values</span><span style=\"color: rgb(200, 183, 155); font-size: 16px; line-height: 20.796875px;\">&nbsp;can be statically&nbsp;modified in the component's settings menu, or can be dynamically modified with probe data.</span></p>\n</div>",
         "background": false,
         "title": ""
       },

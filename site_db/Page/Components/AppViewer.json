@@ -21,13 +21,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The application processes monitor</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The application processes monitor&nbsp;an aggregation of 3 components:<br><br>CPU &amp; System Load- &nbsp;four gauges of CPU activity.<br><br>Memory Usage&nbsp;- Memory used and available.<br><br>Process information - Current processes on your machine.</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:150px; z-index:10; left:630px;",
-        ".nm-cv-viewport": "height:440px; width:260px;"
+        ".nm-cv": "top:150px; z-index:10; left:650px;",
+        ".nm-cv-viewport": "height:440px; width:240px;"
       },
       "monitor": {}
     },
@@ -55,7 +55,7 @@
       },
       "css": {
         ".nm-cv": "top:160px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:370px; width:600px;"
+        ".nm-cv-viewport": "height:370px; width:620px;"
       },
       "monitor": {
         "probeClass": "Process"

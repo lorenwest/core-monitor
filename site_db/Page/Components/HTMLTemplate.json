@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/HTMLTemplate",
+  "id": "/app/core/Components/HTMLTemplate",
   "title": "HTML Template",
   "description": "Documentation page for the HTML Template component.",
   "components": [
@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The HTML Template&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The HTML Template&nbsp;component allows you to write HTML in the settings editor&nbsp;and instantly view&nbsp;your code&nbsp;in the window. Maybe the most widely used component, and with the most potential.</p>\n</div>",
         "background": false,
         "title": ""
       },

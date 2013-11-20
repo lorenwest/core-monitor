@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The REPL Console&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p><br></p><p>\n  The REPL Console&nbsp;component facilitates exploratory debugging for your app servers.<br><br></p>\n</div>",
         "background": false,
         "title": ""
       },
@@ -58,7 +58,8 @@
       },
       "monitor": {
         "probeClass": "Repl",
-        "hostName": "localhost"
+        "hostName": "localhost",
+        "initParams": {}
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/SparkLine",
+  "id": "/app/core/Components/SparkLine",
   "title": "Spark Line",
   "description": "Documentation page for the Spark Line component.",
   "components": [
@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Spark Line&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Spark Line&nbsp;component enables you to create a Spark Line graph; a very small line chart, typically drawn without axes or coordinates.<span style=\"color: rgb(200, 183, 155); font-size: 16px; line-height: 20.796875px;\">&nbsp;Values&nbsp;</span><span style=\"color: rgb(200, 183, 155); font-size: 16px; line-height: 20.796875px;\">can be statically&nbsp;modified in the component's settings menu, or can be dynamically modified with probe data.</span></p>\n</div>",
         "background": false,
         "title": ""
       },

@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/Slider",
+  "id": "/app/core/Components/Slider",
   "title": "Slider",
   "description": "Documentation page for the Slider component.",
   "components": [
@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Slider&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Slider&nbsp;component is a device to show and&nbsp;change incremental levels of an object.&nbsp;</p>\n</div>",
         "background": false,
         "title": ""
       },
@@ -55,7 +55,9 @@
         "initial": 0,
         "onSlide": "",
         "background": true,
-        "title": "Slider"
+        "title": "Slider",
+        "icon": "icon-off",
+        "label": "daf"
       },
       "css": {
         ".nm-cv": "top:160px; z-index:9; left:5px;",

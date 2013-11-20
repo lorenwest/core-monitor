@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/LineChart",
+  "id": "/app/core/Components/LineChart",
   "title": "Line Chart",
   "description": "Documentation page for the Line Chart component.",
   "components": [
@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Line Chart&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p><br></p><p>\n  The Line Chart&nbsp;component, or line graph is a type of chart which displays information as a series of data points connected by straight line segments. Data can be statically modified in the component settings menu or can be&nbsp;dynamically modified with probe data.</p>\n</div>",
         "background": false,
         "title": ""
       },

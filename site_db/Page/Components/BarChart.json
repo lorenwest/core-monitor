@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/BarChart",
+  "id": "/app/core/Components/BarChart",
   "title": "Bar Chart",
   "description": "Documentation page for the Bar Chart component.",
   "components": [
@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Bar Chart&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Bar Chart displays data visually. Data is displayed vertically, and can be statically&nbsp;modified in the component's settings menu, or can be dynamically modified with probe data.</p>\n</div>",
         "background": false,
         "title": ""
       },

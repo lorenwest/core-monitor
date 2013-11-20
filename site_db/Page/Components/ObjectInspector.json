@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/ObjectInspector",
+  "id": "/app/core/Components/ObjectInspector",
   "title": "Object Inspector",
   "description": "Documentation page for the Object Inspector component.",
   "components": [
@@ -21,13 +21,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Object Inspector&nbsp;component...\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Object Inspector&nbsp;component allows you to explore the properties of objects in your browser or app server.&nbsp;</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:150px; z-index:7; left:432px;",
-        ".nm-cv-viewport": "height:340px; width:450px;"
+        ".nm-cv": "top:150px; z-index:7; left:510px;",
+        ".nm-cv-viewport": "height:340px; width:350px;"
       },
       "monitor": {}
     },
@@ -54,7 +54,7 @@
       },
       "css": {
         ".nm-cv": "top:160px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:290px; width:350px;"
+        ".nm-cv-viewport": "height:290px; width:460px;"
       },
       "monitor": {
         "probeClass": "Inspect",
