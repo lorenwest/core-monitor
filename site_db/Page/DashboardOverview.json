@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/dashboards",
+  "id": "/app/core/DashboardOverview",
   "title": "Dashboard Overview",
   "description": "Node monitor tour - Dashboards",
   "components": [
@@ -63,13 +63,13 @@
       "id": "c5",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Components</h3>\n  <p> \n Components are the items contained on a dashboard page. They are added by selecting \"Add a Component\" on the drop down menu, and they can be sized and positioned anywhere on the canvas. Move your mouse <a id=\"hoverOverThis\" href=\"javascript:#\" title=\"Show component outlines for a couple seconds\">over this</a> to see the components that make up&nbsp;this page.</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Components</h3>\n  <p> \n Components are the items contained on a dashboard page. They are added by selecting \"Add a Component\" on the menu, and they can be sized and positioned anywhere on the dashboard. Move your mouse <a id=\"hoverOverThis\" href=\"javascript:#\" title=\"Show component outlines for a couple seconds\">over this</a> to see the components that make up&nbsp;this page.</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
         ".nm-cv": "top:549px; z-index:23; left:4px;",
-        ".nm-cv-viewport": "height:100px; width:680px;"
+        ".nm-cv-viewport": "height:116px; width:657px; z-index:27;"
       },
       "onInit": "$('#hoverOverThis').on('mouseover', function() {\npageView.editPage();\nsetTimeout(function(){\npageView.unlockPage();}\n,2000);\n});",
       "monitor": {}
@@ -191,7 +191,7 @@
         "background": true
       },
       "css": {
-        ".nm-cv": "top:700px; z-index:25; left:20px;",
+        ".nm-cv": "top:703px; z-index:27; left:20px;",
         ".nm-cv-viewport": "height:140px; width:140px;"
       },
       "monitor": {}
@@ -200,13 +200,13 @@
       "id": "c10",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<style type=\"text/css\">\n#text table img {\n  height: 54px;\n  width: 54px;\n  margin: 10px 10px 0 10px;\n  border-radius:10px;\n  border: 2px solid #666;\n  cursor: pointer;\n  text-decoration:none;\n  -webkit-box-shadow: 2px 2px 6px #666;\n}\n#text table h5 {\n  font-weight: 300;\n  font-size: 22px;\n  margin: 20px 0 10px 10px;\n}\n</style>\n<div id=\"text\">\n  <h3>Core Components</h3>\n  <p>\n    The following components are from the <a href=\"http://npmjs.org/core-monitor\" title=\"core-monitor on npmjs.org\" target=\"_blank\" data-placement=\"bottom\">core-monitor</a> project, and installed by default. &nbsp;Click the icon for more information.</p>\n  <p></p><table><tbody>\n    <tr>\n      <td><a href=\"/app/core/Components/Button\"><img src=\"/app/core/image/Button.png\" title=\"Button Page\"></a></td>\n      <td>\n        <h5>Button</h5>\n        <p>A push button that runs javascript on the page when pressed</p>\n      </td>\n    </tr>\n  </tbody></table><p></p>\n</div>",
+        "htmlValue": "<style type=\"text/css\">\n#text table img {\n  height: 64px;\n  width: 64px;\n  margin: 20px 20px 10px 30px;\n  border-radius:10px;\n  border: 2px solid #666;\n  cursor: pointer;\n  text-decoration:none;\n  -webkit-box-shadow: 2px 2px 6px #666;\n}\n#text table h5 {\n  font-weight: 300;\n  font-size: 22px;\n  margin: 20px 0 10px 10px;\n}\n</style>\n<div id=\"text\">\n  <h3>Core Components</h3>\n  <p>\n    The following components are installed by default&nbsp;from the <a href=\"http://npmjs.org/core-monitor\" title=\"core-monitor on npmjs.org\" target=\"_blank\" data-placement=\"bottom\">core-monitor</a> project. &nbsp;Click the icon for more information.</p>\n  <p></p><table><tbody>\n\n    <tr>\n      <td><a href=\"/app/core/Components/AppViewer\"><img src=\"/app/core/image/AppViewer.png\" title=\"App Viewer\"></a></td>\n      <td>\n        <h5>App Viewer</h5>\n        <p>An application process viewer</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/BarChart\"><img src=\"/app/core/image/BarChart.png\" title=\"Bar Chart\"></a></td>\n      <td>\n        <h5>Bar Chart</h5>\n        <p>A Highcharts bar chart</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/Button\"><img src=\"/app/core/image/Button.png\" title=\"Button\"></a></td>\n      <td>\n        <h5>Button</h5>\n        <p>A button to place on a page that runs javascript when pressed</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/Clock\"><img src=\"/app/core/image/Clock.png\" title=\"Clock\"></a></td>\n      <td>\n        <h5>Clock</h5>\n        <p>A clock can put a finishing touch on a dashboard</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/Gauge\"><img src=\"/app/core/image/Gauge.png\" title=\"Gauge\"></a></td>\n      <td>\n        <h5>Gauge</h5>\n        <p>A fuel gauge for expressing the current state</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/HTMLTemplate\"><img src=\"/app/core/image/HTMLView.png\" title=\"HTML Template\"></a></td>\n      <td>\n        <h5>HTML Template</h5>\n        <p>Place any HTML on your dashboard, optionally merging backend data with text.</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/LineChart\"><img src=\"/app/core/image/LineChart.png\" title=\"Line Chart\"></a></td>\n      <td>\n        <h5>Line Chart</h5>\n        <p>A highcharts line chart</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/LogViewer\"><img src=\"/app/core/image/LogViewer.png\" title=\"Log Viewer\"></a></td>\n      <td>\n        <h5>Log Viewer</h5>\n        <p>A highly configurable log viewer, with a filtering and JSON expansion.</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/ObjectInspector\"><img src=\"/app/core/image/ObjectInspector.png\" title=\"Object Inspector\"></a></td>\n      <td>\n        <h5>Object Inspector</h5>\n        <p>Monitor any globally available object.  If the object is a backbone model, monitor changes in real time.</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/PieChart\"><img src=\"/app/core/image/PieChart.png\" title=\"Pie Chart\"></a></td>\n      <td>\n        <h5>Pie Chart</h5>\n        <p>A Highcharts pie chart</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/ProbeViewer\"><img src=\"/app/core/image/ProbeViewer.png\" title=\"Probe Viewer\"></a></td>\n      <td>\n        <h5>Probe Viewer</h5>\n        <p>Monitor any probe running in any of your Node.js processes.</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/REPLConsole\"><img src=\"/app/core/image/Console.png\" title=\"REPL Console\"></a></td>\n      <td>\n        <h5>REPL Console</h5>\n        <p>Yeah.  In a browser.</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/Slider\"><img src=\"/app/core/image/Slider.png\" title=\"Slider\"></a></td>\n      <td>\n        <h5>Slider</h5>\n        <p>Show the state of a numeric variable, and allow user input.</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/SparkLine\"><img src=\"/app/core/image/SparkLine.png\" title=\"Spark Line\"></a></td>\n      <td>\n        <h5>Spark Line</h5>\n        <p>A Highcharts line chart, without the dressing.</p>\n      </td>\n    </tr>\n\n    <tr>\n      <td><a href=\"/app/core/Components/WebSnippet\"><img src=\"/app/core/image/WebClip.png\" title=\"Web Snippet\"></a></td>\n      <td>\n        <h5>Web Snippet</h5>\n        <p>Embed a snippet of another web page in your dashboard.</p>\n      </td>\n    </tr>\n\n  </tbody></table><p></p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:920px; z-index:19; left:10px;",
-        ".nm-cv-viewport": "height:290px; width:870px;"
+        ".nm-cv": "top:921px; z-index:19; left:5px;",
+        ".nm-cv-viewport": "height:1632px; width:872px; z-index:28;"
       },
       "monitor": {}
     },
@@ -220,7 +220,7 @@
       },
       "css": {
         ".nm-cv": "top:700px; z-index:20; left:220px;",
-        ".nm-cv-viewport": "height:90px; width:460px;"
+        ".nm-cv-viewport": "height:90px; width:443px; z-index:27;"
       },
       "monitor": {}
     },
@@ -228,12 +228,12 @@
       "id": "c12",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <p> \n After dragging the clock to a new position, you may notice an asterisk (*) to the left of the page title. That says the page is dirty and needs saving.  If you refresh the page at this point, your changes will be un-done.</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n <p> \n After dragging the clock to a new position, you may notice an asterisk (*) to the left of the page title. That says the page is dirty and needs saving.\n</p>\n<p>\nRefreshing the page when it's dirty will restore it to the way it was before your changes.\n</p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:810px; z-index:21; left:220px;",
+        ".nm-cv": "top:796px; z-index:26; left:220px;",
         ".nm-cv-viewport": "height:80px; width:660px;"
       },
       "monitor": {}

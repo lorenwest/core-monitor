@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/REPLConsole",
+  "id": "/app/core/Components/REPLConsole",
   "title": "REPL Console",
   "description": "Documentation page for the REPL Console component.",
   "components": [
@@ -12,7 +12,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:10px; z-index:5; left:4px;",
+        ".nm-cv": "top:10px; z-index:5; left:0px;",
         ".nm-cv-viewport": "height:90px; width:860px;"
       },
       "monitor": {}
@@ -27,7 +27,7 @@
       },
       "css": {
         ".nm-cv": "top:150px; z-index:7; left:540px;",
-        ".nm-cv-viewport": "height:350px; width:340px;"
+        ".nm-cv-viewport": "height:340px; width:340px;"
       },
       "monitor": {}
     },
@@ -40,7 +40,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:530px; z-index:8; left:2px;",
+        ".nm-cv": "top:530px; z-index:8; left:0px;",
         ".nm-cv-viewport": "height:100px; width:570px;"
       },
       "monitor": {}
@@ -53,8 +53,8 @@
         "background": true
       },
       "css": {
-        ".nm-cv": "top:160px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:300px; width:500px;"
+        ".nm-cv": "top:150px; z-index:9; left:0px;",
+        ".nm-cv-viewport": "height:300px; width:490px;"
       },
       "monitor": {
         "probeClass": "Repl",

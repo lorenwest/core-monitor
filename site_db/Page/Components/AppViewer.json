@@ -1,13 +1,13 @@
 {
-  "id": "/app/core/components/ProcessMonitor",
-  "title": "Process Monitor",
-  "description": "Documentation page for the Clock component.",
+  "id": "/app/core/Components/AppViewer",
+  "title": "App Viewer",
+  "description": "Documentation page for the AppViewer component.",
   "components": [
     {
       "id": "c1",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<style type=\"text/css\">\n#text p { \n  font-weight:300;\n  margin: 0 0 8px 10px;\n  font-size: 16px;\n  line-height: 1.3em\n}\n#text p a { \n  text-decoration: underline;\n}\n#text h3 {\n  font-size:32px;\n  font-weight:300;\n  margin: 22px 0 10px 0\n}\n#text h3:first-child {\n  margin-top:10px;\n}\n.nm-cv-viewport img {\n  border-radius:3px;\n}\n.headerbox {\n  background: #010101; \n  border-radius:6px; height:100%; \n  box-sizing:border-box; padding:15px;\n  font-size:52px;\n  font-weight:300; \n  text-align:center;\n  line-height:1.15em;\n}\n.headerbox img{\nheight:64px;\nwidth:64px;\nmargin: -5px 20px 0 0;\nborder-radius: 10px;\nborder:2px solid #666;\n-webkit-box-shadow: 3px 3px 8px #666\n}\n</style>\n<div class=\"headerbox\"> <img src=\"/app/core/image/AppViewer.png\">Process Monitor</div>",
+        "htmlValue": "<style type=\"text/css\">\n#text p { \n  font-weight:300;\n  margin: 0 0 8px 10px;\n  font-size: 16px;\n  line-height: 1.3em\n}\n#text p a { \n  text-decoration: underline;\n}\n#text h3 {\n  font-size:32px;\n  font-weight:300;\n  margin: 22px 0 10px 0\n}\n#text h3:first-child {\n  margin-top:10px;\n}\n.nm-cv-viewport img {\n  border-radius:3px;\n}\n.headerbox {\n  background: #010101; \n  border-radius:6px; height:100%; \n  box-sizing:border-box; padding:15px;\n  font-size:52px;\n  font-weight:300; \n  text-align:center;\n  line-height:1.15em;\n}\n.headerbox img{\nheight:64px;\nwidth:64px;\nmargin: -5px 20px 0 0;\nborder-radius: 10px;\nborder:2px solid #666;\n-webkit-box-shadow: 3px 3px 8px #666\n}\n</style>\n<div class=\"headerbox\"> <img src=\"/app/core/image/AppViewer.png\" title=\"Image: /app/core/image/AppViewer.png\">App&nbsp;Viewer</div>",
         "background": true,
         "title": ""
       },
@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The application processes gauge</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The application processes monitor</p>\n</div>",
         "background": false,
         "title": ""
       },
@@ -51,7 +51,7 @@
       "viewOptions": {
         "animation": true,
         "background": true,
-        "title": "Process Monitor"
+        "title": "App Viewer"
       },
       "css": {
         ".nm-cv": "top:160px; z-index:9; left:0px;",

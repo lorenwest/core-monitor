@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/components/LogViewer",
+  "id": "/app/core/Components/LogViewer",
   "title": "Log Viewer",
   "description": "Documentation page for the Log Viewer component.",
   "components": [
@@ -12,7 +12,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:10px; z-index:5; left:2px;",
+        ".nm-cv": "top:20px; z-index:5; left:0px;",
         ".nm-cv-viewport": "height:90px; width:860px;"
       },
       "monitor": {}
@@ -26,8 +26,8 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:150px; z-index:7; left:420px;",
-        ".nm-cv-viewport": "height:250px; width:450px;"
+        ".nm-cv": "top:150px; z-index:10; left:0px;",
+        ".nm-cv-viewport": "height:82px; width:875px;"
       },
       "monitor": {}
     },
@@ -40,8 +40,8 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:530px; z-index:8; left:6px;",
-        ".nm-cv-viewport": "height:100px; width:570px;"
+        ".nm-cv": "top:590px; z-index:8; left:0px;",
+        ".nm-cv-viewport": "height:69px; width:877px;"
       },
       "monitor": {}
     },
@@ -53,8 +53,8 @@
         "background": true
       },
       "css": {
-        ".nm-cv": "top:160px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:300px; width:370px;"
+        ".nm-cv": "top:250px; z-index:9; left:0px;",
+        ".nm-cv-viewport": "height:260px; width:860px;"
       },
       "monitor": {
         "probeClass": "Log",
