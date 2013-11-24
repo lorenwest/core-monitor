@@ -6,6 +6,8 @@ This project contains online documentation, page tours, and the following compon
 Components
 ----------
 
+<iframe class="nm-core-wv-iframe" src="http://lorenwest.github.io/node-monitor/pages/getting-started.html" style="margin-top: 0px; margin-left: 0px;"></iframe>
+
 <style type="text/css">
 .readme-table * {
   font-family: Helvetica,Arial,sans-serif;
