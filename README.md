@@ -6,8 +6,8 @@ This project contains online documentation, page tours, and the following compon
 Components
 ----------
 
-<img src="http://lorenwest.github.io/node-monitor/img/icons/all_1.png" title="Components">
-<img src="http://lorenwest.github.io/node-monitor/img/icons/all_2.png" title="Components">
+<img src="http://lorenwest.github.io/node-monitor/img/icons/all_components_1.png" title="Components">
+<img src="http://lorenwest.github.io/node-monitor/img/icons/all_components_2.png" title="Components">
 
 License
 -------
