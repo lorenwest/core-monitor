@@ -9,7 +9,6 @@ Components
 <img src="http://lorenwest.github.io/node-monitor/img/icons/all_1.png" title="App Viewer">
 <img src="http://lorenwest.github.io/node-monitor/img/icons/all_2.png" title="App Viewer">
 
-
 License
 -------
 
