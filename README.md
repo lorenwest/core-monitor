@@ -39,7 +39,7 @@ Components
 <table class="readme-table">
   <tbody>
     <tr>
-      <td style="background-color:white, border:none"><img src="http://lorenwest.github.io/node-monitor/img/icons/AppViewer.png" title="App Viewer"></td>
+      <td style="background-color:white, border:none"><img style="height:64px; width:64px; border-radius:10px; border:2px solid #666;" src="http://lorenwest.github.io/node-monitor/img/icons/AppViewer.png" title="App Viewer"></td>
       <td style="background-color:white, border:none">
         <h5>App Viewer</h5>
         <p>An application process viewer</p>
