@@ -1,0 +1,68 @@
+{
+  "id": "2",
+  "title": "Core Components Tour",
+  "description": "A tour of the built-in core components",
+  "autoNextSec": "5",
+  "pages": [
+    {
+      "url": "/Components/AppViewer",
+      "title": "App Viewer"
+    },
+    {
+      "url": "/Components/BarChart",
+      "title": "Bar Chart"
+    },
+    {
+      "url": "/Components/Button",
+      "title": "Button"
+    },
+    {
+      "url": "/Components/Clock",
+      "title": "Clock"
+    },
+    {
+      "url": "/Components/Gauge",
+      "title": "Gauge"
+    },
+    {
+      "url": "/Components/HTMLTemplate",
+      "title": "HTML Template"
+    },
+    {
+      "url": "/Components/LineChart",
+      "title": "Line Chart"
+    },
+    {
+      "url": "/Components/LogViewer",
+      "title": "Log Viewer"
+    },
+    {
+      "url": "/Components/ObjectInspector",
+      "title": "Object Inspector"
+    },
+    {
+      "url": "/Components/PieChart",
+      "title": "Pie Chart"
+    },
+    {
+      "url": "/Components/ProbeViewer",
+      "title": "Probe Viewer"
+    },
+    {
+      "url": "/Components/REPLConsole",
+      "title": "REPL Console"
+    },
+    {
+      "url": "/Components/Slider",
+      "title": "Slider"
+    },
+    {
+      "url": "/Components/SparkLine",
+      "title": "Spark Line"
+    },
+    {
+      "url": "/Components/WebSnippet",
+      "title": "Web Snippet"
+    }
+  ]
+}

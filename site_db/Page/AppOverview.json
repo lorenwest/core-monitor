@@ -1,23 +1,133 @@
 {
   "id": "/app/core/AppOverview",
-  "title": "Monitor Applications",
-  "description": "Node monitor tour - Applications",
+  "title": "Monitor Apps",
+  "description": "Node monitor tour - Apps",
   "components": [
     {
-      "id": "c0",
-      "viewClass": "core.AppViewer",
+      "id": "c1",
+      "viewClass": "core.Html",
       "viewOptions": {
-        "animation": true,
+        "htmlValue": "<style type=\"text/css\">\n#text p { \n  font-weight:300;\n  margin: 0 0 8px 10px;\n  font-size: 16px;\n  line-height: 1.3em\n}\n#text p a { \n  text-decoration: underline;\n}\n#text h3 {\n  font-size:32px;\n  font-weight:300;\n  margin: 22px 0 10px 0\n}\n#text h3:first-child {\n  margin-top:10px;\n}\n.nm-cv-viewport img {\n  border-radius:3px;\n}\n</style>\n<div style=\"background: #010101; border-radius:6px; height:100%; box-sizing:border-box; padding:15px; font-size:52px; font-weight:300; text-align:center;line-height:1.15em\">Monitor Apps</div>",
         "background": true,
-        "title": "Process Monitor"
+        "title": ""
       },
       "css": {
-        ".nm-cv": "top:10px; z-index:1; left:0px;",
-        ".nm-cv-viewport": "height:600px; width:600px;"
+        ".nm-cv": "top:10px; z-index:5; left:0px;",
+        ".nm-cv-viewport": "height:90px; width:860px;"
       },
-      "monitor": {
-        "probeClass": "Process"
-      }
+      "monitor": {}
+    },
+    {
+      "id": "c2",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<img style=\"\" src=\"/app/core/css/images/new_component.jpg\" title=\"View components\">",
+        "background": true,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:472px; z-index:23; left:482px;",
+        ".nm-cv-viewport": "height:353px; width:380px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c3",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3>Probes</h3>\n  <p>\nProbes are JavaScript classes&nbsp;installed into (or close to) the systems being monitored. Similar in concept to <a href=\"http://www.google.com/search?q=jmx&amp;btnI\" title=\"Link: http://www.google.com/search?q=jmx&amp;btnI\">JMX beans</a> in the Java world, probes are simply data models describing the system being monitored.\n</p>\n<p>\nBuilt as Backbone.js data models, probes are easy to write. Just add data elements when initialized, and set them as they change. Probes are activated only while being monitored, and changes are forwarded to monitors in real time using socket.io push.\n</p>\n\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:270px; z-index:10; left:0px;",
+        ".nm-cv-viewport": "height:170px; width:880px; z-index:10;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c7",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<img style=\"border-radius:6px\" src=\"/app/core/css/images/app.jpg\" title=\"App pages\">",
+        "background": true,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:140px; z-index:18; left:20px;",
+        ".nm-cv-viewport": "height:80px; width:150px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c8",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <p>Node.js developers can&nbsp;extend node-monitor, adding customized monitors and dashboard views for your application. Monitor apps can be included in your own Node.js application, or packaged for installation by npm.</p>\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:150px; z-index:17; left:220px;",
+        ".nm-cv-viewport": "height:80px; width:650px; z-index:19;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c9",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<img style=\"\" src=\"/app/core/css/images/sidebar.jpg\" title=\"Pages &amp; Tours\">",
+        "background": true,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:860px; z-index:19; left:0px;",
+        ".nm-cv-viewport": "height:250px; width:180px; z-index:24;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c10",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3>Views</h3>\n  <p>\nViews are client-side components placed into the dashboard to visualize probes.\n</p><p>\nWhen installed, views appear in the New Component screen, and can be added to any dashboard. They come with a standard settings screen that is often extended to offer fine grained configuration.\n</p><p>\nViews can also pass user input on to probes having remote control functionality, turning your dashboards into control panels.\n</p><p>\nBuilt as Backbone.js view objects, creating custom views is straight forward with many exaples to copy from.\n</p>\n\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:470px; z-index:20; left:0px;",
+        ".nm-cv-viewport": "height:361px; width:438px; z-index:10;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c12",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3>Pages &amp; Tours</h3>\n  <p>\nMonitor apps can also contain pre-built dashboards (pages) and tours.\n</p><p>\nPages delivered with your application are shown in the sidebar under the \"App Pages\" menu, and tours delivered with your application are shown in the \"App Tours\" menu.\n</p><p>\nFor example, these documentation pages are pages contained in&nbsp;the core-monitor app.\n</p>\n\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:890px; z-index:25; left:230px;",
+        ".nm-cv-viewport": "height:200px; width:650px; z-index:10;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c13",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3>Packaging Your Application</h3>\n  <p>Monitor apps are packaged and delivered using the standard package.json file and npm.\n</p><p>\nIf you are building a monitor for an existing application (say, 'myapp'), the convention for naming your monitor app is 'myapp-monitor'.\n</p><p>\nIf your monitor app has probes they must be loaded by the host application, usually by requesting the host application to require('myapp-monitor') in their application startup.\n</p><p>\nViews included in your monitor app are automatically discovered by the dashboard. The monitor app must be in the Node.js require path of the dashboard, and your package.json file must have a dependency on monitor-dashboard for it to be discovered.\n</p>\n\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:1150px; z-index:24; left:0px;",
+        ".nm-cv-viewport": "height:240px; width:880px; z-index:10;"
+      },
+      "monitor": {}
     }
   ]
 }

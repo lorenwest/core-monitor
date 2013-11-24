@@ -1,0 +1,24 @@
+{
+  "id": "1",
+  "title": "Dashboard Overview Tour",
+  "description": "An overview of the Monitor Dashboard",
+  "autoNextSec": "10",
+  "pages": [
+    {
+      "url": "/index",
+      "title": "Home - Node Monitor"
+    },
+    {
+      "url": "/DashboardOverview",
+      "title": "Dashboard Overview"
+    },
+    {
+      "url": "/TourOverview",
+      "title": "Tour Overview"
+    },
+    {
+      "url": "/AppOverview",
+      "title": "Monitor Applications"
+    }
+  ]
+}

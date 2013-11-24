@@ -8,11 +8,11 @@
       "viewOptions": {
         "htmlValue": "Page not found.<br>Create a monitor page at this location?"
       },
-      "monitor": {},
       "css": {
         ".nm-cv": "top:60px; left:0px; z-index:1;",
         ".nm-cv-viewport": "font-size:20px; line-height:34px; height:78px; width:367px;"
-      }
+      },
+      "monitor": {}
     },
     {
       "id": "c2",
@@ -22,10 +22,10 @@
         "icon": "icon-magic",
         "onPress": "pageView.newPage();"
       },
-      "monitor": {},
       "css": {
         ".nm-cv": "top:170px; left:120px; z-index:2;"
-      }
+      },
+      "monitor": {}
     },
     {
       "id": "c3",
@@ -35,10 +35,10 @@
         "icon": "icon-arrow-left",
         "onPress": "window.history.back();"
       },
-      "monitor": {},
       "css": {
         ".nm-cv": "top:170px; left:0px; z-index:3;"
-      }
+      },
+      "monitor": {}
     }
   ]
 }

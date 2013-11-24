@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/Components/WebSnippet",
+  "id": "/Components/WebSnippet",
   "title": "Web Snippet",
   "description": "Documentation page for the Web Snippet component.",
   "components": [
@@ -110,7 +110,7 @@
         },
         "background": true,
         "siteUrl": "http://money.cnn.com/data/markets/",
-        "scrollBars": false,
+        "scrollBars": true,
         "offsetTop": -157,
         "offsetLeft": 622
       },

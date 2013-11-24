@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/Components/REPLConsole",
+  "id": "/Components/REPLConsole",
   "title": "REPL Console",
   "description": "Documentation page for the REPL Console component.",
   "components": [
@@ -53,13 +53,15 @@
         "background": true
       },
       "css": {
-        ".nm-cv": "top:150px; z-index:9; left:0px;",
-        ".nm-cv-viewport": "height:300px; width:490px;"
+        ".nm-cv": "top:150px; z-index:9; left:8px;",
+        ".nm-cv-viewport": "height:300px; width:480px;"
       },
       "monitor": {
         "probeClass": "Repl",
-        "hostName": "localhost",
-        "initParams": {}
+        "initParams": {
+          "uniqueInstance": 0.12763307010754943
+        },
+        "hostName": "localhost"
       }
     }
   ]

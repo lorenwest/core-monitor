@@ -26,7 +26,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:548px; z-index:24; left:701px;",
+        ".nm-cv": "top:570px; z-index:24; left:700px;",
         ".nm-cv-viewport": "height:190px; width:160px;"
       },
       "monitor": {}
@@ -40,7 +40,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:180px; z-index:10; left:1px;",
+        ".nm-cv": "top:210px; z-index:10; left:0px;",
         ".nm-cv-viewport": "height:110px; width:880px; z-index:10;"
       },
       "monitor": {}
@@ -54,7 +54,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:330px; z-index:7; left:190px;",
+        ".nm-cv": "top:360px; z-index:7; left:190px;",
         ".nm-cv-viewport": "height:140px; width:690px;"
       },
       "monitor": {}
@@ -68,7 +68,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:549px; z-index:23; left:4px;",
+        ".nm-cv": "top:570px; z-index:23; left:0px;",
         ".nm-cv-viewport": "height:116px; width:657px; z-index:27;"
       },
       "onInit": "$('#hoverOverThis').on('mouseover', function() {\npageView.editPage();\nsetTimeout(function(){\npageView.unlockPage();}\n,2000);\n});",
@@ -83,7 +83,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:156px; z-index:17; left:286px;",
+        ".nm-cv": "top:200px; z-index:17; left:280px;",
         ".nm-cv-viewport": "height:24px; width:442px;"
       },
       "monitor": {}
@@ -97,7 +97,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:326px; z-index:14; left:2px;",
+        ".nm-cv": "top:350px; z-index:14; left:0px;",
         ".nm-cv-viewport": "height:180px; width:130px;"
       },
       "monitor": {}
@@ -191,7 +191,7 @@
         "background": true
       },
       "css": {
-        ".nm-cv": "top:703px; z-index:27; left:20px;",
+        ".nm-cv": "top:730px; z-index:27; left:20px;",
         ".nm-cv-viewport": "height:140px; width:140px;"
       },
       "monitor": {}
@@ -205,7 +205,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:921px; z-index:19; left:5px;",
+        ".nm-cv": "top:960px; z-index:19; left:10px;",
         ".nm-cv-viewport": "height:1632px; width:872px; z-index:28;"
       },
       "monitor": {}
@@ -219,7 +219,7 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:700px; z-index:20; left:220px;",
+        ".nm-cv": "top:730px; z-index:20; left:220px;",
         ".nm-cv-viewport": "height:90px; width:443px; z-index:27;"
       },
       "monitor": {}
@@ -233,8 +233,22 @@
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:796px; z-index:26; left:220px;",
+        ".nm-cv": "top:826px; z-index:29; left:220px;",
         ".nm-cv-viewport": "height:80px; width:660px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c13",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n <p> \n Each page on this site is a dashboard with the following elements:</p>\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:140px; z-index:28; left:0px;",
+        ".nm-cv-viewport": "height:25px; width:877px;"
       },
       "monitor": {}
     }

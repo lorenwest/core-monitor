@@ -1,5 +1,5 @@
 {
-  "id": "/app/core/dashboards/TourOverview",
+  "id": "/TourOverview",
   "title": "Tour Overview",
   "description": "Node monitor tour - Tours",
   "components": [
@@ -21,13 +21,13 @@
       "id": "c2",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/app/core/css/images/add-a-component.jpg\">",
+        "htmlValue": "<img style=\"margin-top:-160px;\" src=\"/app/core/css/images/sidebar.jpg\" title=\"Image: /app/core/css/images/sidebar.jpg\">",
         "background": true,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:540px; z-index:15; left:700px;",
-        ".nm-cv-viewport": "height:190px; width:160px;"
+        ".nm-cv": "top:250px; z-index:15; left:10px;",
+        ".nm-cv-viewport": "height:90px; width:180px;"
       },
       "monitor": {}
     },
@@ -35,27 +35,13 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Header</h3>\n  <p> \n    The header contains the page title and main&nbsp;menu. Most page elements show more information when you hover over them.&nbsp;</p><p><span style=\"line-height: 1.3em;\">For example, clicking the Node Monitor logo to the right hides and shows the header bar.</span><br></p><p> \n</p></div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Finding Tours</h3>\n  <p>Tours are located at the bottom of the left sidebar, and are organized by the monitor application containing the tour.</p>\n\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:180px; z-index:10; left:1px;",
-        ".nm-cv-viewport": "height:110px; width:880px; z-index:10;"
-      },
-      "monitor": {}
-    },
-    {
-      "id": "c4",
-      "viewClass": "core.Html",
-      "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Sidebar</h3>\n  <p> \n    Pages in your site are shown in the sidebar for easy navigation, organized by the path to the page.\n  </p>\n  <p>\n    Page tours are also shown in the sidebar, and can be run by selecting the tour. For more on tours, head over to the <a href=\"/app/core/dashboards/TourOverview\">tour overview</a> page.</p>\n</div>",
-        "background": false,
-        "title": ""
-      },
-      "css": {
-        ".nm-cv": "top:330px; z-index:7; left:190px;",
-        ".nm-cv-viewport": "height:140px; width:690px;"
+        ".nm-cv": "top:247px; z-index:10; left:268px;",
+        ".nm-cv-viewport": "height:100px; width:610px; z-index:10;"
       },
       "monitor": {}
     },
@@ -63,13 +49,13 @@
       "id": "c5",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Components</h3>\n  <p> \n Components are the items contained on a dashboard page. They are added by selecting \"Add a Component\" on the drop down menu, and they can be sized and positioned anywhere on the canvas.\n  </p>\n  <p>\nClicking on the component title opens a settings screen to customize the component. Changes are seen immediately, but aren't persisted to the page until the 'Save' button is pressed. A \"view source\" button is available giving you access to the underlying structure of that component.\n  </p>\n  <p>\nA core set of components from the core-monitor project are bundled with Node Monitor, and other component types can be written and packaged as monitor apps.\n </p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n\n  <h3>Running Tours</h3>\n<p>When a tour is selected from the sidebar, the first page of the tour is loaded and a tour control is displayed at the bottom of the screen. The tour runs until it is paused or stopped from the control.\n  </p>\n  <p>\nMost tours cycle through&nbsp;pages at a specified interval.\n  </p>\n</div>",
         "background": false,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:560px; z-index:16; left:4px;",
-        ".nm-cv-viewport": "height:300px; width:680px;"
+        ".nm-cv": "top:390px; z-index:16; left:0px;",
+        ".nm-cv-viewport": "height:130px; width:880px;"
       },
       "monitor": {}
     },
@@ -77,13 +63,83 @@
       "id": "c7",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/app/core/css/images/sidebar.jpg\" title=\"Image: /app/core/css/images/sidebar.jpg\">",
+        "htmlValue": "<img style=\"border-radius:6px\" src=\"/app/core/css/images/tour.jpg\" title=\"Tour control\">",
         "background": true,
         "title": ""
       },
       "css": {
-        ".nm-cv": "top:326px; z-index:14; left:2px;",
-        ".nm-cv-viewport": "height:180px; width:130px;"
+        ".nm-cv": "top:137px; z-index:18; left:644px;",
+        ".nm-cv-viewport": "height:73px; width:215px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c8",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <p> \n    Tours guide you through a series of pages on your site.</p>\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:160px; z-index:17; left:0px;",
+        ".nm-cv-viewport": "height:40px; width:610px; z-index:19;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c9",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<img style=\"\" src=\"/app/core/css/images/tour_manage.jpg\" title=\"Add a tour\">",
+        "background": true,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:578px; z-index:19; left:0px;",
+        ".nm-cv-viewport": "height:70px; width:240px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c10",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3>Managing Tours</h3>\n  <p>Tours can be added and edited by selecting the tour settings icon, which appears when hovering over the tour heading bar.</p>\n\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:570px; z-index:20; left:284px;",
+        ".nm-cv-viewport": "height:90px; width:600px; z-index:10;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c11",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<img style=\"\" src=\"/app/core/css/images/tour_settings.jpg\" title=\"Add a tour\">",
+        "background": true,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:710px; z-index:21; left:326px;",
+        ".nm-cv-viewport": "height:450px; width:540px;"
+      },
+      "monitor": {}
+    },
+    {
+      "id": "c12",
+      "viewClass": "core.Html",
+      "viewOptions": {
+        "htmlValue": "<div id=\"text\">\n  <h3>Settings</h3>\n  <p>Pages can be re-arranged, added, and removed in the tour settings page.</p><p>To add a new tour, press the <i class=\"icon-plus\"></i> symbol above the list of tours.</p>\n\n</div>",
+        "background": false,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:714px; z-index:22; left:4px;",
+        ".nm-cv-viewport": "height:450px; width:290px; z-index:10;"
       },
       "monitor": {}
     }
