@@ -5,63 +5,63 @@
   "autoNextSec": "5",
   "pages": [
     {
-      "url": "/Components/AppViewer",
+      "url": "/app/core/Components/AppViewer",
       "title": "App Viewer"
     },
     {
-      "url": "/Components/BarChart",
+      "url": "/app/core/Components/BarChart",
       "title": "Bar Chart"
     },
     {
-      "url": "/Components/Button",
+      "url": "/app/core/Components/Button",
       "title": "Button"
     },
     {
-      "url": "/Components/Clock",
+      "url": "/app/core/Components/Clock",
       "title": "Clock"
     },
     {
-      "url": "/Components/Gauge",
+      "url": "/app/core/Components/Gauge",
       "title": "Gauge"
     },
     {
-      "url": "/Components/HTMLTemplate",
+      "url": "/app/core/Components/HTMLTemplate",
       "title": "HTML Template"
     },
     {
-      "url": "/Components/LineChart",
+      "url": "/app/core/Components/LineChart",
       "title": "Line Chart"
     },
     {
-      "url": "/Components/LogViewer",
+      "url": "/app/core/Components/LogViewer",
       "title": "Log Viewer"
     },
     {
-      "url": "/Components/ObjectInspector",
+      "url": "/app/core/Components/ObjectInspector",
       "title": "Object Inspector"
     },
     {
-      "url": "/Components/PieChart",
+      "url": "/app/core/Components/PieChart",
       "title": "Pie Chart"
     },
     {
-      "url": "/Components/ProbeViewer",
+      "url": "/app/core/Components/ProbeViewer",
       "title": "Probe Viewer"
     },
     {
-      "url": "/Components/REPLConsole",
+      "url": "/app/core/Components/REPLConsole",
       "title": "REPL Console"
     },
     {
-      "url": "/Components/Slider",
+      "url": "/app/core/Components/Slider",
       "title": "Slider"
     },
     {
-      "url": "/Components/SparkLine",
+      "url": "/app/core/Components/SparkLine",
       "title": "Spark Line"
     },
     {
-      "url": "/Components/WebSnippet",
+      "url": "/app/core/Components/WebSnippet",
       "title": "Web Snippet"
     }
   ]

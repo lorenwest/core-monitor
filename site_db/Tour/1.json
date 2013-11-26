@@ -5,19 +5,19 @@
   "autoNextSec": "10",
   "pages": [
     {
-      "url": "/index",
+      "url": "/app/core/index",
       "title": "Home - Node Monitor"
     },
     {
-      "url": "/DashboardOverview",
+      "url": "/app/core/DashboardOverview",
       "title": "Dashboard Overview"
     },
     {
-      "url": "/TourOverview",
+      "url": "/app/core/TourOverview",
       "title": "Tour Overview"
     },
     {
-      "url": "/AppOverview",
+      "url": "/app/core/AppOverview",
       "title": "Monitor Applications"
     }
   ]

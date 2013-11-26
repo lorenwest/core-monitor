@@ -1,7 +1,7 @@
 {
   "name": "core-monitor",
   "description": "Core Components",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "main": "lib/index.js",
   "repository": {
     "type" : "git",
