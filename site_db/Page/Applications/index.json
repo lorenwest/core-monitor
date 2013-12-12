@@ -1,13 +1,13 @@
 {
-  "id": "/app/core/AppOverview",
-  "title": "Monitor Apps",
-  "description": "Node monitor tour - Apps",
+  "id": "/app/core/Applications/index",
+  "title": "App Development - Home",
+  "description": "Technical section for monitor app developers",
   "components": [
     {
       "id": "c1",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<style type=\"text/css\">\n#text p { \n  font-weight:300;\n  margin: 0 0 8px 10px;\n  font-size: 16px;\n  line-height: 1.3em\n}\n#text p a { \n  text-decoration: underline;\n}\n#text h3 {\n  font-size:32px;\n  font-weight:300;\n  margin: 22px 0 10px 0\n}\n#text h3:first-child {\n  margin-top:10px;\n}\n.nm-cv-viewport img {\n  border-radius:3px;\n}\n</style>\n<div style=\"background: #010101; border-radius:6px; height:100%; box-sizing:border-box; padding:15px; font-size:52px; font-weight:300; text-align:center;line-height:1.15em\">Monitor Apps</div>",
+        "htmlValue": "<style type=\"text/css\">\n#text p { \n  font-weight:300;\n  margin: 0 0 8px 10px;\n  font-size: 16px;\n  line-height: 1.3em\n}\n#text p a { \n  text-decoration: underline;\n}\n#text h3 {\n  font-size:32px;\n  font-weight:300;\n  margin: 22px 0 10px 0\n}\n#text h3:first-child {\n  margin-top:10px;\n}\n.nm-cv-viewport img {\n  border-radius:3px;\n}\n</style>\n<div style=\"background: #010101; border-radius:6px; height:100%; box-sizing:border-box; padding:15px; font-size:52px; font-weight:300; text-align:center;line-height:1.15em\">Monitor App Development</div>",
         "background": true,
         "title": ""
       },
@@ -119,7 +119,7 @@
       "id": "c13",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Getting Started</h3>\n  <p>If you're still reading, you're probably thinking about building some sweet monitors for your own project.\n</p><p>\nThe <a href=\"/app/core/Applications/index\" title=\"If you're a developer, you'll like this\">Applications</a> section has tools to get you started, technical documentation, and links to developer forums to answer your questions.    \n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Getting Started</h3>\n  <p>If you're still reading, you're probably thinking about building some sweet monitors for your own project.\n</p><p>\nThe <a href=\"/app/core/Applicattions/index\" title=\"If you're a developer, you'll like this\">Applications</a> section has tools to get you started, technical documentation, and links to developer forums to answer your questions.    \n</p>\n</div>",
         "background": false,
         "title": ""
       },
