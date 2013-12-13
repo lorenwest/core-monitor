@@ -35,7 +35,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Probes</h3>\n  <p>\nProbes are JavaScript classes&nbsp;installed into (or close to) the systems being monitored. Similar in concept to <a href=\"http://www.google.com/search?q=jmx&amp;btnI\" title=\"Link: http://www.google.com/search?q=jmx&amp;btnI\">JMX beans</a> in the Java world, probes are simply data models describing the system being monitored.\n</p>\n<p>\nBuilt as Backbone.js data models, probes are easy to write. Just add data elements when initialized, and set them as they change. Probes are activated only while being monitored, and changes are forwarded to monitors in real time using socket.io push.\n</p>\n\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Probes</h3>\n  <p>\nProbes are JavaScript classes&nbsp;installed into (or close to) the systems being monitored. Similar in concept to <a href=\"http://www.google.com/search?q=jmx&amp;btnI\" title=\"Link: http://www.google.com/search?q=jmx&amp;btnI\" target=\"_blank\">JMX beans</a> in the Java world, probes are simply data models describing the system being monitored.\n</p>\n<p>\nBuilt as Backbone.js data models, probes are easy to write. Just add data elements when initialized, and set them as they change. Probes are activated only while being monitored, and changes are forwarded to monitors in real time using socket.io push.\n</p>\n\n</div>",
         "background": false,
         "title": ""
       },
