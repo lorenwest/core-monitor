@@ -100,6 +100,19 @@
         ".nm-cv-viewport": "height:220px; width:880px; z-index:10;"
       },
       "monitor": {}
+    },
+    {
+      "id": "c17",
+      "viewClass": "core.AppDevView",
+      "viewOptions": {
+        "background": true,
+        "title": ""
+      },
+      "css": {
+        ".nm-cv": "top:230px; z-index:30; left:320px;",
+        ".nm-cv-viewport": "height:300px; width:400px;"
+      },
+      "monitor": {}
     }
   ]
 }

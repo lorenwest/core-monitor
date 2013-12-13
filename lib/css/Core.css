@@ -320,3 +320,7 @@ input.nm-core-inspector-expression {
   color: #555;
 }
 
+.core-AppDevView {
+  background-color: white;
+  border-radius: 4px;
+}
