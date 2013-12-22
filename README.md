@@ -1,7 +1,7 @@
 Core Monitor Dashboard Components
 =================================
 
-This project contains online documentation, page tours, and the following components for the [node-monitor dashboard](http://lorenwest.github.io/node-monitor) project.
+This project contains online documentation, page tours, and the following components for the [monitor dashboard](http://lorenwest.github.io/monitor-dashboard) project.
 
 Components
 ----------
@@ -12,8 +12,6 @@ Components
 License
 -------
 
-May be freely distributed under the MIT license
-
-See [LICENSE](https://github.com/lorenwest/core-monitor/blob/master/LICENSE) file.
-
+May be freely distributed under the MIT license<br>
+See [LICENSE](https://github.com/lorenwest/core-monitor/blob/master/LICENSE) file.<br>
 Copyright (c) 2010-2013 Loren West, and other contributors
