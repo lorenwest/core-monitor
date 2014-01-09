@@ -14,4 +14,4 @@ License
 
 May be freely distributed under the MIT license<br>
 See [LICENSE](https://github.com/lorenwest/core-monitor/blob/master/LICENSE) file.<br>
-Copyright (c) 2010-2013 Loren West, and other contributors
+Copyright (c) 2010-2014 Loren West, and other contributors
