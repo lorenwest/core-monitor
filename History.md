@@ -1,3 +1,10 @@
+0.6.4 / 
+==================
+
+  * Added app development pages
+  * Added app development probe and view
+  * Updated copyright year
+
 0.6.3 / 2013-11-25
 ==================
 
