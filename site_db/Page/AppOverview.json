@@ -119,7 +119,7 @@
       "id": "c13",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Getting Started</h3>\n  <p>If you're still reading, you're probably thinking about building some sweet monitors for your own project.\n</p><p>\nThe <a href=\"/app/core/Applications/index\" title=\"If you're a developer, you'll like this\">Applications</a> section has tools to get you started, technical documentation, and links to developer forums to answer your questions.    \n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Getting Started</h3>\n  <p>If you're still reading, you're probably thinking about building some sweet monitors for your own project.\n</p><p>\nThe <a href=\"/app/core/AppDev/index\" title=\"If you're a developer, you'll like this\">AppDev</a> section has tools to get you started, technical documentation, and links to developer forums to answer your questions.    \n</p>\n</div>",
         "background": false,
         "title": ""
       },
