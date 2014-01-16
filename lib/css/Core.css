@@ -325,3 +325,34 @@ input.nm-core-inspector-expression {
   border-radius: 4px;
   color: #333;
 }
+
+.nm-core-advFirst {
+  text-align: center;
+  font-size: 28px;
+}
+
+.nm-core-adv-indent {
+  padding: 6px 6px 3px 4px;
+}
+
+.nm-core-adv-type {
+  margin: 0 0 0 10px;
+}
+
+.nm-core-adv-generate {
+  float: right;
+  margin: 5px 8px 0 0;
+}
+
+.nm-core-adv-fullwidth {
+  width: 100%;
+  box-sizing:border-box;
+}
+
+.nm-core-adv-name {
+  height: 26px !important;
+}
+
+.nm-core-adv h4 {
+  margin: 10px 0 3px 0;
+}
