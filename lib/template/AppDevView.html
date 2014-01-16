@@ -1,16 +1,18 @@
 <div class="nm-core-adv">
   <h3>Monitor App Generator</h3>
   <h4>Generate a monitor app for:</h4>
-  <input type="radio" name="appType" value="npm" checked="checked"> An NPM module<br>
-  <input type="radio" name="appType" value="app"> Your application
-  <h4>NPM Module Name</h4>
-  <input type="text" placeholder="">
+  <div class="nm-core-adv-type">
+    <input type="radio" name="appType" value="app"> An application<br>
+    <input type="radio" name="appType" value="npm" checked="checked"> An NPM module
+    <h4>NPM Module Name</h4>
+    <input class="nm-core-adv-name" type="text" placeholder=""/>
+  </div>
   <div>Warning area</div>
-  <h4>Path to the Monitor App Directory</h4>
-  <select>
+  <h4>Generate the monitor app in:</h4>
+  <select class="nm-core-adv-dest">
     <option value="/Users/loren/node_modules">/Users/loren/node_modules</option>
     <option value="/Users/node_modules">/Users/node_modules</option>
     <option value="/node_modules">/node_modules</option>
   </select>
-  <br><button id="generateApp">Generate App</button>
+  <br><button class="nm-core-adv-generate">Generate App</button>
 </div>
