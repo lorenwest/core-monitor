@@ -21,7 +21,7 @@
       "id": "c3",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Probe Viewer component provides a view of the JSON value of any probe installed in your app server, updated in real-time.\n</p>\n<p>\n  The example to the left is showing a process probe.  Scroll down a bit to see some values changing in real time.\n</p>\n<p>\n  Complex objects can be expanded and contracted by selecting the <i class=\"icon-caret-down\"></i> and <i class=\"icon-caret-right\"></i> icon to the left of the object.\n</p>\n</div>",
+        "htmlValue": "<div id=\"text\">\n  <h3>Component</h3>\n<p>\n  The Probe Viewer provides a view of the JSON value of any probe installed in your app server, updated in real-time.\n</p>\n<p>\n  The example to the left is showing a process probe.  Scroll down a bit to see some values changing in real time.\n</p>\n<p>\n  Complex objects can be expanded and contracted by selecting the <i class=\"icon-caret-down\"></i> and <i class=\"icon-caret-right\"></i> icon to the left of the object.\n</p>\n</div>",
         "background": false,
         "title": ""
       },
