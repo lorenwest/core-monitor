@@ -96,7 +96,7 @@
       },
       "css": {
         ".nm-cv": "top:620px; z-index:30; left:400px;",
-        ".nm-cv-viewport": "height:430px; width:460px;"
+        ".nm-cv-viewport": "height:320px; width:430px;"
       },
       "monitor": {
         "probeClass": "AppDevProbe"

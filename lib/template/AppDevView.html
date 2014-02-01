@@ -1,32 +1,27 @@
 <div class="nm-core-adv">
-  
+
   <div class="nm-core-advFirst">
     <h2>Monitor App Generator</h2>
   </div>
-  
+
   <h4>Generate a monitor app for:</h4>
-  
+
   <div class="nm-core-adv-indent">
     <input id="nm-core-adv-rb1" type="radio" name="appType" value="app"> An application<br>
     <input id="nm-core-adv-rb2" type="radio" name="appType" value="npm" checked="checked"> An NPM module
   </div>
-  
   <h4 id="nm-core-adv-nameHeading">Your NPM Module Name</h4>
-    
   <div class="nm-core-adv-indent">
     <input class="nm-core-adv-name nm-core-adv-fullwidth" type="text" placeholder=""/>
     <div class="nm-core-adv-warning">Warning area</div>
   </div>
-  
+
   <h4>Generate the monitor app in:</h4>
-  
+
   <div class="nm-core-adv-indent">
-    <select class="nm-core-adv-dest nm-core-adv-fullwidth">
-      <option value="/Users/loren/node_modules">/Users/loren/node_modules</option>
-      <option value="/Users/node_modules">/Users/node_modules</option>
-      <option value="/node_modules">/node_modules</option>
+    <select class="nm-core-adv-dest nm-core-adv-fullwidth" title="Some Title" data-placement="bottom">
     </select>
   </div>
-  
+
   <button class="nm-core-adv-generate btn">Generate App</button>
 </div>
