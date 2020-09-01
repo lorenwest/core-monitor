@@ -8,7 +8,7 @@
     "url" : "http://github.com/lorenwest/core-monitor.git"
   },
   "dependencies": {
-    "connect": ">=1.7.2 <1.8.0",
+    "connect": ">=2.8.1",
     "monitor": ">=0.6.3 <0.7.0",
     "monitor-dashboard": ">=0.6.2 <0.7.0"
   }
